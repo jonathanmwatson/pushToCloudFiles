@@ -7,8 +7,8 @@ class pushToCloudFiles
      * Fill in these two variables with your username
      * from RackSpace Cloud Files and your Api Key
      */
-    protected $username='';
-    protected $apiKey='';
+    protected $username=''; //Cloud Files username
+    protected $apiKey=''; //Cloud Files Api Key
 
     protected static $totalBytesTransferred = 0;
     protected static $bytesTransferred = 0;
