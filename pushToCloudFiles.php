@@ -116,7 +116,7 @@ class pushToCloudFiles
         $this->conn = new CF_Connection($this->auth);
         if($this->verbose){
             echo "Authenticating...\n";
-            $this->conn->set_write_progress_function("backupToCloud::write_callback");
+            $this->conn->set_write_progress_function("pushToCloudFiles::write_callback");
         }
 
     }
